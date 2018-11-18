@@ -1,0 +1,6 @@
+10:26:53 **** Build of configuration Release for project firstproject ****
+make all 
+make: Nothing to be done for `all'.
+
+10:26:53 Build Finished (took 78ms)
+

@@ -1,0 +1,19 @@
+11:36:44 **** Build of configuration Release for project okp_kr ****
+make all 
+make: Nothing to be done for `all'.
+11:36:54 **** Clean-only build of configuration Debug for project okp_kr ****
+make clean 
+rm -rf  ./src/okp_kr.o  ./src/okp_kr.d  okp_kr
+ 
+11:36:54 **** Incremental Build of configuration Debug for project okp_kr ****
+make all 
+Building file: ../src/okp_kr.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/okp_kr.d" -MT"src/okp_kr.o" -o "src/okp_kr.o" "../src/okp_kr.cpp"
+Finished building: ../src/okp_kr.cpp
+ 
+Building target: okp_kr
+Invoking: MacOS X C++ Linker
+g++  -o "okp_kr"  ./src/okp_kr.o   
+Finished building target: okp_kr
+ 

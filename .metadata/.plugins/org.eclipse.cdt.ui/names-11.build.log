@@ -1,0 +1,20 @@
+12:08:38 **** Incremental Build of configuration Debug for project names-11 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp:35:15: error: no matching constructor for initialization of 'LectureTitle'
+        LectureTitle title(
+                     ^
+../src/LectureTitle.cpp:29:3: note: candidate constructor not viable: no known conversion from 'Week' to 'Course' for 2nd argument
+  LectureTitle(Specialization sp, Course co, Week wk){
+  ^
+../src/LectureTitle.cpp:25:8: note: candidate constructor (the implicit move constructor) not viable: requires 1 argument, but 3 were provided
+struct LectureTitle {
+       ^
+../src/LectureTitle.cpp:25:8: note: candidate constructor (the implicit copy constructor) not viable: requires 1 argument, but 3 were provided
+1 error generated.
+make: *** [src/main.o] Error 1
+
+12:08:39 Build Finished (took 674ms)
+

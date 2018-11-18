@@ -1,0 +1,15 @@
+21:02:40 **** Incremental Build of configuration Debug for project equation ****
+make all 
+Building file: ../src/binary.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/binary.d" -MT"src/binary.o" -o "src/binary.o" "../src/binary.cpp"
+Finished building: ../src/binary.cpp
+ 
+Building target: equation
+Invoking: MacOS X C++ Linker
+g++  -o "equation"  ./src/binary.o   
+Finished building target: equation
+ 
+
+21:02:40 Build Finished (took 566ms)
+
